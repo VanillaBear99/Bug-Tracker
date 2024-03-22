@@ -1,0 +1,12 @@
+query UserTickets {
+  userTickets {
+    creator
+    title
+    description
+    priority
+    type
+    status
+    name
+    projectId
+  }
+}

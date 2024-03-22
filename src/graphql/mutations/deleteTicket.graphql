@@ -1,0 +1,3 @@
+mutation DeleteTicket($team: [deleteDev!]!, $ticketId: Float!) {
+  deleteTicket(team: $team, ticketId: $ticketId)
+}

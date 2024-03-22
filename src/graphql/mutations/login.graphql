@@ -1,0 +1,16 @@
+mutation Login($options: UserLogin!) {
+  login(options: $options) {
+    errors {
+      field
+      message
+    }
+    user {
+      id
+      email
+      role
+      name
+      createdAt
+      updatedAt
+    }
+  }
+}

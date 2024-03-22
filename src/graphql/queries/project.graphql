@@ -1,0 +1,10 @@
+query Project($projectId: Float!) {
+  project(id: $projectId) {
+    id
+    name
+    description
+    archived
+    createdAt
+    updatedAt
+  }
+}
